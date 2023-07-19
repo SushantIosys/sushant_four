@@ -163,7 +163,8 @@ a {
   line-height: normal;
   letter-spacing: 0.356px;
   transition: all 0.4s ease-in;
-
+display: inline-block;
+margin-bottom: 0;
 }
 a:hover {
   transition: all 0.4s ease-in;
@@ -304,4 +305,6 @@ button:hover {
   h6 {
     font-size: 16px;
   }
+  p.large {
+    font-size: 18px;}
 }
