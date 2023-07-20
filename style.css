@@ -208,7 +208,7 @@ margin-bottom: 50px;
 }
 
 .section_five .bottom_content .card{
-
+cursor: pointer;
     flex-basis: 31%;
     display: flex;
     background-color: #FFF;
