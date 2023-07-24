@@ -175,6 +175,7 @@ a.cta_button {
   text-align: center;
   font-style: normal;
   line-height: normal;
+  border-radius: 4px;
   padding: 16px 34px;
   transition: all 0.3s ease-in;
   display: inline-block;
@@ -182,6 +183,8 @@ a.cta_button {
   color: #FFF;
   text-align: center;
   font-size: 16px;
+  border: 1px solid transparent;
+
   font-weight: 700;
   letter-spacing: 0.356px;
   font-family: "Mulish", sans-serif;
@@ -190,6 +193,9 @@ a.cta_button:hover {
   background: #fff;
   color: #0B3694;
   transition: all 0.3s ease-in;
+  border: 1px solid #0B3694;
+  border-radius: 4px;
+
 }
 button {
   background: #0B3694;
@@ -307,4 +313,9 @@ button:hover {
   }
   p.large {
     font-size: 18px;}
+    a.cta_button {
+      padding: 15px 20px;
+      font-size: 12px;
+      font-weight: 500;
+    }
 }
