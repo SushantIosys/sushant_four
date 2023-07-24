@@ -791,6 +791,12 @@ box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.15);
   .section_eleven {
     padding: 80px 0;
   }
+  .section_onetwo {
+    padding: 80px 0;
+  }
+  .section_onethree {
+    padding: 80px 0;
+  }
   .section_nine_content .bottom_content .row .card_nine {
     flex-basis: 100%;}
   .section_nine_content .bottom_content .card_nine .top {
@@ -820,6 +826,12 @@ box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 60px 0;
   }
   .section_eleven {
+    padding: 60px 0;
+  }
+  .section_onetwo {
+    padding: 60px 0;
+  }
+  .section_onethree {
     padding: 60px 0;
   }
 
