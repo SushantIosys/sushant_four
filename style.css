@@ -100,6 +100,7 @@
   width: 106px;
   height: 94px;
   top: 0px;
+  overflow: hidden;
   right: 0px;
   content: "";
   pointer-events: none;
@@ -160,6 +161,14 @@
   padding: 16px 26px;
 }
 
+ .label_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
 /* section five styling */
 
 .section_five {
@@ -186,6 +195,7 @@
 }
 .section_five_content .top_content .bottom .left {
   background-image: url("./resource/image2.png");
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -236,9 +246,11 @@
 }
 .section_five .bottom_content .card .top2 {
   background-image: url("./resource/12.png");
+  overflow: hidden;
 }
 .section_five .bottom_content .card .top3 {
   background-image: url("./resource/13.png");
+  overflow: hidden;
 }
 .section_five .bottom_content .card .top {
   background-image: url("./resource/image2.png");
@@ -247,14 +259,17 @@
   position: relative;
   width: 100%;
   display: inline-block;
+  overflow: hidden;
   min-height: 273px;
   flex-shrink: 0;
 }
 .section_five .bottom_content .card .top2 {
   background-image: url("./resource/12.png");
+  overflow: hidden;
 }
 .section_five .bottom_content .card .top3 {
   background-image: url("./resource/13.png");
+  overflow: hidden;
 }
 
 .section_five .bottom_content .card h6 {
@@ -301,6 +316,7 @@
 .section_six .bottom_content .card::before {
   background-image: url(./resource/img111.png);
   position: absolute;
+  overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   width: 145.853px;
@@ -461,6 +477,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   width: 100%;
   display: inline-block;
   padding: 4px 0;
@@ -477,6 +494,7 @@
   position: relative;
   width: 100%;
   display: inline-block;
+  overflow: hidden;
 }
 hr {
   border: 1px solid rgba(11, 54, 148, 0.15);
@@ -577,6 +595,7 @@ hr {
   background-image: url("./resource/image2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   position: relative;
   width: 100%;
   display: inline-block;
@@ -738,8 +757,9 @@ box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.15);
     flex-basis: 28%;
   }
   .section_one {
-    padding-top: 80px 0;
-  }
+    padding-top: 80px;
+    padding-bottom: 80px;}
+
   .section_six {
     padding-top: 80px 0;
   }
@@ -853,6 +873,7 @@ box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.15);
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 20px;
   }
   .section_two .section_two_content .row .card {
     flex-basis: 41%;
